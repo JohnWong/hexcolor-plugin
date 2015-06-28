@@ -1,0 +1,298 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5288B0DF1B407BFE0086AFED /* AppKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5288B0DE1B407BFE0086AFED /* AppKit.framework */; };
+		5288B0E11B407BFE0086AFED /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5288B0E01B407BFE0086AFED /* Foundation.framework */; };
+		5288B0E61B407BFE0086AFED /* hexcolor.xcscheme in Resources */ = {isa = PBXBuildFile; fileRef = 5288B0E51B407BFE0086AFED /* hexcolor.xcscheme */; };
+		5288B0E91B407BFE0086AFED /* JWHexColor.m in Sources */ = {isa = PBXBuildFile; fileRef = 5288B0E81B407BFE0086AFED /* JWHexColor.m */; };
+		5288B0EC1B407BFE0086AFED /* NSObject_Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 5288B0EB1B407BFE0086AFED /* NSObject_Extension.m */; };
+		5288B0F61B407CAD0086AFED /* JWColorFrameView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5288B0F31B407CAD0086AFED /* JWColorFrameView.m */; };
+		5288B0F71B407CAD0086AFED /* JWPlainColorWell.m in Sources */ = {isa = PBXBuildFile; fileRef = 5288B0F51B407CAD0086AFED /* JWPlainColorWell.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		5288B0DB1B407BFE0086AFED /* hexcolor.xcplugin */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = hexcolor.xcplugin; sourceTree = BUILT_PRODUCTS_DIR; };
+		5288B0DE1B407BFE0086AFED /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = /System/Library/Frameworks/AppKit.framework; sourceTree = "<absolute>"; };
+		5288B0E01B407BFE0086AFED /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = /System/Library/Frameworks/Foundation.framework; sourceTree = "<absolute>"; };
+		5288B0E41B407BFE0086AFED /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5288B0E51B407BFE0086AFED /* hexcolor.xcscheme */ = {isa = PBXFileReference; lastKnownFileType = text.xml; name = hexcolor.xcscheme; path = hexcolor.xcodeproj/xcshareddata/xcschemes/hexcolor.xcscheme; sourceTree = SOURCE_ROOT; };
+		5288B0E71B407BFE0086AFED /* JWHexColor.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JWHexColor.h; sourceTree = "<group>"; };
+		5288B0E81B407BFE0086AFED /* JWHexColor.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JWHexColor.m; sourceTree = "<group>"; };
+		5288B0EA1B407BFE0086AFED /* NSObject_Extension.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NSObject_Extension.h; sourceTree = "<group>"; };
+		5288B0EB1B407BFE0086AFED /* NSObject_Extension.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NSObject_Extension.m; sourceTree = "<group>"; };
+		5288B0F21B407CAD0086AFED /* JWColorFrameView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JWColorFrameView.h; sourceTree = "<group>"; };
+		5288B0F31B407CAD0086AFED /* JWColorFrameView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JWColorFrameView.m; sourceTree = "<group>"; };
+		5288B0F41B407CAD0086AFED /* JWPlainColorWell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JWPlainColorWell.h; sourceTree = "<group>"; };
+		5288B0F51B407CAD0086AFED /* JWPlainColorWell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JWPlainColorWell.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5288B0D91B407BFE0086AFED /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5288B0DF1B407BFE0086AFED /* AppKit.framework in Frameworks */,
+				5288B0E11B407BFE0086AFED /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5288B0D21B407BFE0086AFED = {
+			isa = PBXGroup;
+			children = (
+				5288B0E21B407BFE0086AFED /* hexcolor */,
+				5288B0DD1B407BFE0086AFED /* Frameworks */,
+				5288B0DC1B407BFE0086AFED /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5288B0DC1B407BFE0086AFED /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5288B0DB1B407BFE0086AFED /* hexcolor.xcplugin */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5288B0DD1B407BFE0086AFED /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5288B0DE1B407BFE0086AFED /* AppKit.framework */,
+				5288B0E01B407BFE0086AFED /* Foundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		5288B0E21B407BFE0086AFED /* hexcolor */ = {
+			isa = PBXGroup;
+			children = (
+				5288B0F21B407CAD0086AFED /* JWColorFrameView.h */,
+				5288B0F31B407CAD0086AFED /* JWColorFrameView.m */,
+				5288B0F41B407CAD0086AFED /* JWPlainColorWell.h */,
+				5288B0F51B407CAD0086AFED /* JWPlainColorWell.m */,
+				5288B0E71B407BFE0086AFED /* JWHexColor.h */,
+				5288B0E81B407BFE0086AFED /* JWHexColor.m */,
+				5288B0EA1B407BFE0086AFED /* NSObject_Extension.h */,
+				5288B0EB1B407BFE0086AFED /* NSObject_Extension.m */,
+				5288B0E31B407BFE0086AFED /* Supporting Files */,
+			);
+			path = hexcolor;
+			sourceTree = "<group>";
+		};
+		5288B0E31B407BFE0086AFED /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				5288B0E41B407BFE0086AFED /* Info.plist */,
+				5288B0E51B407BFE0086AFED /* hexcolor.xcscheme */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5288B0DA1B407BFE0086AFED /* hexcolor */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5288B0EF1B407BFE0086AFED /* Build configuration list for PBXNativeTarget "hexcolor" */;
+			buildPhases = (
+				5288B0D71B407BFE0086AFED /* Sources */,
+				5288B0D81B407BFE0086AFED /* Resources */,
+				5288B0D91B407BFE0086AFED /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = hexcolor;
+			productName = hexcolor;
+			productReference = 5288B0DB1B407BFE0086AFED /* hexcolor.xcplugin */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5288B0D31B407BFE0086AFED /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = "John Wong";
+				TargetAttributes = {
+					5288B0DA1B407BFE0086AFED = {
+						CreatedOnToolsVersion = 6.3.2;
+					};
+				};
+			};
+			buildConfigurationList = 5288B0D61B407BFE0086AFED /* Build configuration list for PBXProject "hexcolor" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 5288B0D21B407BFE0086AFED;
+			productRefGroup = 5288B0DC1B407BFE0086AFED /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5288B0DA1B407BFE0086AFED /* hexcolor */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5288B0D81B407BFE0086AFED /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5288B0E61B407BFE0086AFED /* hexcolor.xcscheme in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5288B0D71B407BFE0086AFED /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5288B0F61B407CAD0086AFED /* JWColorFrameView.m in Sources */,
+				5288B0F71B407CAD0086AFED /* JWPlainColorWell.m in Sources */,
+				5288B0E91B407BFE0086AFED /* JWHexColor.m in Sources */,
+				5288B0EC1B407BFE0086AFED /* NSObject_Extension.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		5288B0ED1B407BFE0086AFED /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+			};
+			name = Debug;
+		};
+		5288B0EE1B407BFE0086AFED /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+			};
+			name = Release;
+		};
+		5288B0F01B407BFE0086AFED /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				DEPLOYMENT_LOCATION = YES;
+				DSTROOT = "$(HOME)";
+				INFOPLIST_FILE = hexcolor/Info.plist;
+				INSTALL_PATH = "/Library/Application Support/Developer/Shared/Xcode/Plug-ins";
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = xcplugin;
+			};
+			name = Debug;
+		};
+		5288B0F11B407BFE0086AFED /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				DEPLOYMENT_LOCATION = YES;
+				DSTROOT = "$(HOME)";
+				INFOPLIST_FILE = hexcolor/Info.plist;
+				INSTALL_PATH = "/Library/Application Support/Developer/Shared/Xcode/Plug-ins";
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = xcplugin;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5288B0D61B407BFE0086AFED /* Build configuration list for PBXProject "hexcolor" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5288B0ED1B407BFE0086AFED /* Debug */,
+				5288B0EE1B407BFE0086AFED /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5288B0EF1B407BFE0086AFED /* Build configuration list for PBXNativeTarget "hexcolor" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5288B0F01B407BFE0086AFED /* Debug */,
+				5288B0F11B407BFE0086AFED /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5288B0D31B407BFE0086AFED /* Project object */;
+}
